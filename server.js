@@ -61,7 +61,7 @@ hbs.registerHelper('screamIt', (text) => {
 app.get('/', (req, res) => {
     res.render('home.hbs', {
         messages: [
-            'hello message1',
+            'hello message1 heroku',
             'hello message2',
         ]
     });
